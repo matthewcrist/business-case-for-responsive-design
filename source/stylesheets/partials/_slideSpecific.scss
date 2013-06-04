@@ -1,0 +1,57 @@
+.stats-time {
+	background-image: url(../images/time.jpg)
+}
+
+.stats-parents {
+	background-image: url(../images/parents.png)
+}
+
+.stats-oneill {
+	background-image: url(../images/oneill.png)
+}
+
+.stats-skinny {
+	background-image: url(../images/skinny.png)
+}
+
+.slide-left {
+	h3, p, div {
+		text-align: left;
+	}
+}
+
+.bespoke-slide.slide-img {
+	background-position: normal;
+
+	-webkit-background-size: 70%;
+	-moz-background-size: 70%;
+	-o-background-size: 70%;
+	background-size: 70%;
+
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	padding-top: 30%;
+}
+
+.bespoke-slide.slide-blocked {
+	background-image: url(../images/blocked.png);
+}
+
+.bespoke-slide.slide-responsive-native {
+	background-image: url(../images/responsive-native.png);
+
+	-webkit-background-size: 50%;
+	-moz-background-size: 50%;
+	-o-background-size: 50%;
+	background-size: 50%;
+}
+
+.bespoke-slide.slide-responsive-native-fail {
+	background-image: url(../images/responsive-native-fail.png);
+
+	-webkit-background-size: 87%;
+	-moz-background-size: 87%;
+	-o-background-size: 87%;
+	background-size: 87%;
+}

@@ -1,0 +1,145 @@
+.stats {
+  width: 100%;
+  height: 100%;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  box-orient: horizontal;
+}
+
+.stats-header {
+  width: 33%;
+  height: 100%;
+  line-height: 0.8;
+  text-align: left;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+
+  color: rgb(255,255,255);
+  font-weight: 900;
+  font-size: 5.5em;
+  padding-left: 5%;
+}
+
+.stats-group {
+  width: 67%;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+}
+
+.stats-pair {
+  width: 90%;
+  margin-top: 1px;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  box-orient: horizontal;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.stat {
+  background: rgba(255,255,255,0.25);
+  width: 50%;
+  margin-left: 1px;
+  padding: 1.5em 2em;
+  height: 100%;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.stat-title {
+  color: rgba(0,0,0,0.5);
+  margin-bottom: 1.5em;
+  color: rgba(0,0,0,0.5);
+  font-size: 1.75em;
+}
+
+.stat-value {
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+    margin-left: 0;
+  }
+
+  i {
+    padding: 0;
+    color: rgb(61,129,52);
+    font-size: 4.25em;
+  }
+
+  strong {
+    font-size: 1.5em;
+    color: rgb(255,255,255);
+    font-size: 4em;
+    letter-spacing: -2px;
+  }
+
+  &.negative {
+    i {
+      color: rgb(185,52,55);
+    }
+  }
+}
+
+.slide-inverse {
+  .stats-header {
+    color: rgba(0,0,0,0.85);
+  }
+
+  .stat-value {
+    strong {
+      color: rgba(0,0,0,0.65);
+    }
+  }
+}
