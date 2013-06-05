@@ -84,7 +84,23 @@ article {
   }
 }
 
+.image-margin {
+  margin-bottom: 2em;
+}
+
 .unbrokenline {
   border-bottom: 1px dotted #595959;
   margin: 30px 0 30px;
+}
+
+.animated-icon {
+  position: relative;
+
+  canvas {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -75px;
+    bottom: 75px;
+  }
 }
