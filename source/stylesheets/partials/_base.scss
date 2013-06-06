@@ -10,6 +10,7 @@ body {
 	margin: 0 auto;
 	color: rgb(54,54,54);
   cursor: none;
+  background: rgb(255,255,255);
 }
 
 p {
@@ -60,7 +61,7 @@ article {
   -ms-box-align: center;
   box-align: center;
   font-size: 2em;
-  color: #a6a6a6;
+  color: rgb(0,174,216);
 
   &::before, &::after {
 	  content: "";

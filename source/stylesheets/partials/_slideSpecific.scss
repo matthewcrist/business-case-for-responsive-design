@@ -38,6 +38,15 @@
 	background-image: url(../images/blocked.png);
 }
 
+.bespoke-slide.slide-forbes {
+	background-image: url(../images/forbes.png);
+
+	-webkit-background-size: 42%;
+	-moz-background-size: 42%;
+	-o-background-size: 42%;
+	background-size: 42%;
+}
+
 .bespoke-slide.slide-responsive-native {
 	background-image: url(../images/responsive-native.png);
 
