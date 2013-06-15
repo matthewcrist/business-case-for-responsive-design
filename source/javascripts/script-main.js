@@ -7,11 +7,11 @@ skycons.add("raining", Skycons.RAIN)
 skycons.play()
 
 document.body.onclick = function(e) {
-	bespoke.prev()
+	bespoke.next()
 	return false
 }
 
 document.oncontextmenu = function (e) { 
-    bespoke.next()
+    bespoke.prev()
     return false
 }

@@ -143,3 +143,57 @@
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  .stats {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-box-pack: center;
+    box-pack: center;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+  }
+
+  .stats-header {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .stats-pair {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+
+    width: 100%;
+
+    .stat {
+      margin: 1px 0 0;
+      width: 100%;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

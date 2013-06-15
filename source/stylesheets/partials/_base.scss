@@ -18,6 +18,10 @@ p {
   font-weight: 100;
 }
 
+img {
+  width: 90%;
+}
+
 article {
 	.content {
     min-width: 50%;
@@ -107,9 +111,56 @@ article {
   }
 }
 
+.zero-width {
+  font-family: sans-serif;
+}
+
+.promo {
+  border-top: 1px solid rgb(0,174,216);
+  margin-top: 2em;
+  padding-top: 2em;
+
+  .promo-title {
+    font-size: 1.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .promo-text {
+    margin-bottom: 1em;
+  }
+
+  input {
+    vertical-align: middle;
+    font-size: 1.25em;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0.5em;
+  }
+
+  .btn {
+    vertical-align: middle;
+    font-size: 1.25em;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0.5em;
+    background: #e67e22;
+    border: none;
+    color: rgb(255,255,255);
+    cursor: pointer;
+  }
+}
+
 @media screen and (max-width: 960px) {
   body {
-    font-size: 80%;
+    font-size: 60%;
+  }
+
+  .bespoke-slide {
+    padding: 0 1em;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
@@ -118,7 +169,7 @@ article {
     font-size: 40%;
   }
 
-  .bespoke-slide {
-    padding: 0 1em;
+  .promo {
+    font-size: 1.75em;
   }
 }
