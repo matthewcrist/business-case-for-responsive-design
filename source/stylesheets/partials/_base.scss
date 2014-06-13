@@ -1,0 +1,175 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: "museo-sans";
+	margin: 0 auto;
+	color: rgb(54,54,54);
+  cursor: none;
+  background: rgb(255,255,255);
+}
+
+p {
+  font-size: 1.75em;
+  font-weight: 100;
+}
+
+img {
+  width: 90%;
+}
+
+article {
+	.content {
+    min-width: 50%;
+		max-width: 60em;
+		text-align: center;
+	}
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-top: 0.5em;
+    font-size: 3.25em;
+    text-align: left;
+    margin-bottom: 0.35em;
+    padding-bottom: 0.25em;
+    font-weight: 100;
+    font-size: 3.25em;
+    margin: 0;
+    letter-spacing: -1px;
+    border-bottom: 1px dotted rgba(0,0,0,0.15);
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.byline {
+  margin: 1em 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+  font-size: 2em;
+  color: rgb(0,174,216);
+
+  &::before, &::after {
+	  content: "";
+	  display: block;
+
+	  -webkit-box-flex: 1;
+	  -moz-box-flex: 1;
+	  -ms-box-flex: 1;
+	  box-flex: 1;
+
+	  height: 0;
+	  padding-top: 1px;
+	  border-bottom: 1px dotted rgba(0,0,0,0.15);
+	}
+
+  & > * {
+    margin-right: 1em;
+  }
+
+  & > *:first-child {
+    margin-left: 1em;
+  }
+}
+
+.image-margin {
+  margin-bottom: 2em;
+}
+
+.unbrokenline {
+  border-bottom: 1px dotted #595959;
+  margin: 30px 0 30px;
+}
+
+.animated-icon {
+  position: relative;
+
+  canvas {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -75px;
+    bottom: 75px;
+  }
+}
+
+.zero-width {
+  font-family: sans-serif;
+}
+
+.promo {
+  border-top: 1px solid rgb(0,174,216);
+  margin-top: 2em;
+  padding-top: 2em;
+
+  .promo-title {
+    font-size: 1.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .promo-text {
+    margin-bottom: 1em;
+  }
+
+  input {
+    vertical-align: middle;
+    font-size: 1.25em;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0.5em;
+  }
+
+  .btn {
+    vertical-align: middle;
+    font-size: 1.25em;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0.5em;
+    background: #e67e22;
+    border: none;
+    color: rgb(255,255,255);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    font-size: 60%;
+  }
+
+  .bespoke-slide {
+    padding: 0 1em;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 40%;
+  }
+
+  .promo {
+    font-size: 1.75em;
+  }
+}
